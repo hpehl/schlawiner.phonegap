@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "name.pehl.schlawiner"
-        version   = "0.2.0">
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 
     <name>Schlawiner</name>
     <description>Puzzle and dice game</description>
@@ -10,6 +7,8 @@
     <author href="http://hpehl.info" email="harald.pehl@gmail.com">
         Harald Pehl
     </author>
+
+    <feature name="http://api.phonegap.com/1.0/device" />
 
     <preference name="phonegap-version"     value="2.3.0" />
     <preference name="orientation"          value="default" />
